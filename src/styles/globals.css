@@ -1,0 +1,12 @@
+.answer-grid {
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 700px;
+}
+
+.answer-grid[disabled] {
+  background-color: lightgray;
+  pointer-events: none;
+  opacity: 0.5;
+}
